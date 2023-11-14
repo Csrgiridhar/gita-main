@@ -1,0 +1,129 @@
+.div2{
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color:white;
+}
+.div3{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+h2{
+    padding: 5px ;
+}
+.dashboard1{
+    padding-top: 5px;
+    margin-top: 4px;
+}
+.img1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.about{
+    margin-right: 20px;
+    
+}
+
+.img2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.admin{
+    margin-top: 25px;
+
+}
+.button1{
+    background-color:#0B5ED7 ;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+.div4{
+    border-bottom: 1px solid grey;
+}
+.h6{
+    padding: 10px 0px;
+}
+.div5{
+    width: 300px;
+    height: 90vh;
+    background-color: black;
+    color: aliceblue;
+    padding-right: 45px;
+
+
+
+}
+.dashboard2{
+    margin-top: 2px;
+}
+.div6{
+    display: flex;
+    margin-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+.img3{
+     height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+}
+.csr{
+    padding-bottom: 40px;
+}
+.csr1{
+    
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+/* .hidden_menu{display:none} */
+
+/* .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  } */
+/* .flex1{
+    display: flex;
+} */
+
+.back{   
+     background-color: beige;
+}
+
+.d1{
+    width: 70vw;
+    height: 350px;
+}
+
+.d2{
+    display: flex;
+}
+.about1{
+    text-decoration-line:none ;
+    color: aliceblue;
+}

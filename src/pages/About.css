@@ -1,0 +1,35 @@
+.card1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    
+}
+.card2{
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow:0px 0px 15px rgb(41, 41, 41) ;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+.card2:hover{
+    transform: scale(1.05);
+    background-color:rgb(105, 104, 104);
+    color: aliceblue;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+.features{
+    text-align: left;
+    
+}
+.input2{
+    margin-left: 1043px;
+}
+.div{
+    background-color: beige;
+}

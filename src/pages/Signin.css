@@ -1,0 +1,21 @@
+.sign1{
+    background-image: url(./background2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    height: 100vh;
+}
+.sign2{
+    padding: 20px;
+    line-height: 40px;
+    border: 1px solid black;
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 450px;
+    background:linear-gradient( 45deg,aliceblue,grey,aliceblue);
+    /* background-color: transparent; */
+    color: black;
+    border-radius: 10px;
+}
