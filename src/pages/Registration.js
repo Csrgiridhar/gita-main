@@ -41,7 +41,7 @@ const Registration = () => {
     <div className='divison1'>
         <fieldset >
        <form className='f1' onSubmit={handlesubmit}>
-            {/* <legend className='l1'>Registration Form</legend> */}
+            <legend className='l1'>Registration Form</legend>
             <label className='label1'>Name</label><br></br>
             <input className='input1' type='text' placeholder='Enter name' name='Name' required  onChange={handleChange}  /><br></br>
             <label className='label1'>Password</label><br></br>
