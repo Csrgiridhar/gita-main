@@ -25,7 +25,7 @@ const Signin = () => {
         e.preventDefault();
         console.log("Registration Form:",formData)
          // navigate('/Dashboard',{state:{submitteddata:formData}});
-        if(formData.Name===data.Name && formData.Password===data.Password){
+        if(formData.Name===data.username && formData.Password===data.password){
             navigate('/Dashboard',{state:{submitteddata:formData}});
 
         }
