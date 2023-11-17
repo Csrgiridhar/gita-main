@@ -22,7 +22,7 @@ const Register = () => {
     const inputValue = e.target.value;
     setUsername(inputValue);
     
-    setIsValidUsername(usernameRegex.test(inputValue));
+    setIsValidUsername(usernameRegex.test(inputValue))
     
   };
 
@@ -102,6 +102,7 @@ const Register = () => {
       </button>
     </form>
     </fieldset>
+    
     </div>
   );
 };

@@ -6,9 +6,9 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom' ;
 // import Search from './pages/Search';
 // import Forms from './pages/Forms';
 // import Registration from './pages/Registration';
-import Signin from './pages/Signin';
-import Dashboard from './pages/Dashboard';
-import About from './pages/About';
+// import Signin from './pages/Signin';
+// import Dashboard from './pages/Dashboard';
+// import About from './pages/About';
 
 
 // import Hookclass from './pages/Hookclass';
@@ -18,7 +18,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 // import RegistrationPage from './pages/RegistrationPage';
 // import MyForm from './pages/MyForm';
-import Register from './pages/Register';
+// import Register from './pages/Register';
+
+import Datesearch from './pages/Datesearch';
+import Searchbybaranddate from './pages/Searchbybaranddate';
+import SearchbyRange from './pages/SearchbyRange';
 // import MapFuction2 from './pages/MapFuction2';
 // import MapFuction2 from './pages/MapFuction2';
 // import Newfile from './pages/Newfile';
@@ -30,12 +34,16 @@ function App() {
       
       <Router>
         <Routes>
-        {/* <Route path='/' element={<Register />} /> */}
 
-          <Route path='/' element={<Register />} />
+        {/* <Route path='/' element={<Datesearch />} /> */}
+        {/* <Route path='/' element={<Searchbybaranddate />} /> */}
+        <Route path='/' element={<SearchbyRange/>} />
+
+
+          {/* <Route path='/' element={<Register />} />
           <Route path='/Signin' element={<Signin />} />
           <Route path='/Dashboard' element={<Dashboard />} />
-          <Route path='/About' element={<About />} />
+          <Route path='/About' element={<About />} /> */}
 
           {/* <Route path='/Registration1' element={<Registration1 />} />
           <Route path='/Formdata' element={<Formdata />} /> */}

@@ -1,0 +1,161 @@
+.table{
+    text-align: center;
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 20px black;
+
+    
+}
+.col{
+    border-right: 1px solid black;
+    
+}
+.col1{
+    border: 1px solid black;
+}
+
+.int{
+    margin: 20px;
+    border-radius: 5px;
+}
+.int:hover{
+    transform: scale(1.1);
+}
+.datefilter{
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700092800&semt=sph");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.reset{
+    background-color:rgb(184, 183, 183);
+    border-radius: 5px;
+    color:rgb(25, 25, 26);
+
+}
+.reset:hover{
+    transform: scale(1.1);
+}
+.datafilter1{
+    padding-top: 100px;
+}
+.table thead tr th{
+    color:rgb(25, 25, 26);
+    background-color:rgb(184, 183, 183);
+}
+.search1{
+    margin: 20px ;
+    border-radius: 5px;
+    
+}
+.search1:hover{
+    transform: scale(1.1);
+}
+.reset1{
+    background-color:rgb(184, 183, 183);
+    border-radius: 5px;
+    color:rgb(25, 25, 26);
+    margin: 10px;
+    
+
+}
+.reset1:hover{
+    transform: scale(1.1);
+}
+.datefilter2{
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/bokeh-defocused-background_23-2148497833.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.table1{
+
+    text-align: center;
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px;
+    height: 250px;
+}
+.table1 thead tr th{
+    color:rgb(25, 25, 26);
+    background-color:rgb(184, 183, 183);
+}
+.datefilter3{
+    height: 100vh;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/premium-photo/dried-dates-wooden-bowl-with-palm-leaves-yellow-background-with-light-shadows-top-view_378419-522.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.table3{
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px;
+    height: 250px;
+    color: brown;
+    
+    
+}
+.table3 thead tr th{
+    color:white;
+    background-color:rgb(52, 52, 53);
+}
+
+.table3 thead tr th:hover{
+    
+    background-color:rgb(25, 25, 26);
+}
+.label{
+    color:black;
+    font-weight: bolder;
+}
+.datafilter3{
+    padding-top: 10px;
+    color:black;
+}
+.col3{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.bg{
+    padding: 25px;
+    border: 1px solid black;
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px grey;
+}
+.reset3{
+    background-color:rgb(52, 52, 53);
+    border-radius: 5px;
+    color:white;
+    margin: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+
+}
+.reset3:hover{
+    transform: scale(1.1);
+    background-color: rgb(25, 25, 26);
+}
+.int3{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.int3:hover{
+    transform: scale(1.1);
+    background-color: white;
+}
